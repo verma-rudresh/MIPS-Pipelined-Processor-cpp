@@ -17,7 +17,7 @@ EFFECT WHEN DESSERTED(0): None.
 EFFECT WHEN ASSERTED(1): The register on the Write register input is written with the value
                          on the Write data input.
                
-#### 3. ALU_src:
+### 3. ALU_src:
 EFFECT WHEN DESSERTED(0): The second ALU operand comes from the second
                           register file output (Read data 2).
 EFFECT WHEN ASSERTED(1): The second ALU operand is the sign-extended, lower 16 bits of
